@@ -1,11 +1,7 @@
 // document.getElementById("count-el").innerText = 5
 
 
-// camelCase
 
-// Working with the DOM
-// 
-// grab the count-el element, store it in a countEl variable
 
 let countEl = document.getElementById("count-el")
 let count = 0 
@@ -15,8 +11,9 @@ function increment() {
     countEl.innerText = count
     console.log("count")
     
-    // set countEl's innerText to the count
+}
 
-    // change the count-el in the HTML to reflect the new count
-    
+// 1. Create a function, save(), which logs out the count when it's called
+function save() {
+    console.log("count")
 }
